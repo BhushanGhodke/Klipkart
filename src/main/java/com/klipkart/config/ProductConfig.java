@@ -16,7 +16,7 @@ public class ProductConfig {
 		Map config= new HashMap();		
 		config.put("cloud_name","do1glzsfu");
 		config.put("api_key","948695311846617");
-		config.put("api_secret","Xi3b-S2vdGu-eNaHQ7fLJRLPH30");
+		config.put("api_secret","api_secret");
 		config.put("secure", "true");
 		return new Cloudinary(config);
 	}
